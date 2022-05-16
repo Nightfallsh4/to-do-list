@@ -9,8 +9,8 @@
 </head>
 <body>
     <h1 class="box" id="heading"><%= dayOfWeek %></h1>
-    <!-- <p> </p> -->
-    <div class="box"> 
+    <div class="box">
+        
         <% items.forEach(function(item){ %>
             <form action="/delete" method="post">
                 <div class="item">
@@ -24,7 +24,7 @@
             <input type="text" name="newItem" placeholder="New Item" autocomplete="off">
             <button type="submit">+</button>
         </form>
-    
+
     </div>
     
 </body>
